@@ -1,0 +1,18 @@
+eureka:
+  instance:
+    metadataMap:
+      zone: zone1
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:  
+  port: ${PORT:8081}
+management:
+  security: 
+    enabled: false
+sample:
+  string:
+    property: Client App
+  int:
+    property: 1
+myinfo: Lee    

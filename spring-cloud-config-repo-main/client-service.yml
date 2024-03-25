@@ -1,0 +1,5 @@
+server:  
+  port: ${PORT:8081}
+myInfo: Lee  
+hisInfo: 손흥민
+youInfo: 박지성
